@@ -2,11 +2,12 @@ use ethers::core::abi::encode;
 use ethers::core::abi::Token;
 use ethers::types::H256;
 use ethers::utils::keccak256;
-use std::env;
-use std::fs::File;
-use std::io::{BufRead, BufReader};
+use hex;
 
-fn hash_val(val: &str) -> [u8; 32] {
+mod math;
+use math::min;
+
+pub fn hash_val(val: &str) -> [u8; 32] {
     let encoded = encode(&[Token::String(val.to_string())]);
     keccak256(encoded)
 }
@@ -27,15 +28,7 @@ fn hash(left: [u8; 32], right: [u8; 32]) -> [u8; 32] {
     keccak256(encoded)
 }
 
-fn min(x: usize, y: usize) -> usize {
-    if x < y {
-        x
-    } else {
-        y
-    }
-}
-
-fn calc_root_hash(hashes: &Vec<[u8; 32]>) -> [u8; 32] {
+pub fn calc_root(hashes: &Vec<[u8; 32]>) -> [u8; 32] {
     let mut hs = hashes.clone();
     let mut n = hs.len();
 
@@ -54,11 +47,13 @@ fn calc_root_hash(hashes: &Vec<[u8; 32]>) -> [u8; 32] {
     hs[0]
 }
 
-fn gen_proof(hashes: &Vec<[u8; 32]>, idx: usize) -> Vec<[u8; 32]> {
+pub fn gen_proof(hashes: &Vec<[u8; 32]>, idx: usize) -> Vec<[u8; 32]> {
     let mut hs = hashes.clone();
     let mut proof: Vec<[u8; 32]> = Vec::new();
     let mut n = hs.len();
     let mut k = idx;
+
+    assert!(idx < n, "Invalid index");
 
     while n > 1 {
         //      1
@@ -84,43 +79,19 @@ fn gen_proof(hashes: &Vec<[u8; 32]>, idx: usize) -> Vec<[u8; 32]> {
     proof
 }
 
-fn verify(root: [u8; 32], proof: &Vec<[u8; 32]>, leaf_hash: [u8; 32]) -> bool {
+pub fn verify(root: [u8; 32], proof: &[[u8; 32]], leaf_hash: [u8; 32]) -> bool {
     let mut h = leaf_hash;
 
-    for i in 0..proof.len() {
-        h = hash(proof[i], h);
+    for p in proof.iter() {
+        h = hash(*p, h);
     }
 
     h == root
 }
 
-fn main() {
-    let args: Vec<String> = env::args().collect();
-
-    let file = File::open(args[1].clone()).unwrap();
-    let reader = BufReader::new(file);
-
-    let mut hashes: Vec<[u8; 32]> = Vec::new();
-    for line in reader.lines() {
-        let v: String = line.unwrap().parse().unwrap();
-        hashes.push(hash_val(&v));
-    }
-
-    let root = calc_root_hash(&hashes);
-    let idx = 7;
-    let proof = gen_proof(&hashes, idx);
-
-    let r: H256 = root.into();
-    println!("root {:?}", r);
-
-    let leaf: H256 = hashes[idx].into();
-    println!("leaf {:?}", leaf);
-
-    for p in proof.iter() {
-        let h: H256 = p.into();
-        println!("proof {:#?}", h);
-    }
-
-    let is_valid = verify(root, &proof, hashes[idx]);
-    println!("{:?}", is_valid);
+pub fn hex_to_bytes32(hex_str: &str) -> Result<[u8; 32], String> {
+    let hex_str = hex_str.strip_prefix("0x").unwrap_or(hex_str);
+    let bytes = hex::decode(hex_str).map_err(|e| e.to_string())?;
+    let arr: [u8; 32] = bytes.try_into().map_err(|_| "Invalid length".to_string())?;
+    Ok(arr)
 }

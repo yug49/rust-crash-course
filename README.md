@@ -14,6 +14,11 @@ TODO: exercises
 
 - [Install cargo](./notes/install.md)
 - Hello world
+  - Attributes
+  - macros
+  - `main`
+  - `println!`
+  - `cargo run` `examples`, `bin` and `main`
 - Variable
 - Function
 

@@ -23,4 +23,7 @@ cargo fmt
 
 # Run main.rs
 cargo run
+
+# Run test
+cargo test
 ```

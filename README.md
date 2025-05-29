@@ -3,6 +3,13 @@
 TODO: examples
 TODO: exercises
 
+### Course intro
+
+- Setup
+  - Folder structure
+    - examples
+  - How to do exercises
+
 ### Intro
 
 - [Install cargo](./notes/install.md)

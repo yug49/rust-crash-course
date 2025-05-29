@@ -7,39 +7,63 @@ use std::process::Command;
 
 use merkle::{calc_root, hash_val, hex_to_bytes32, verify};
 
-fn diff() {
+fn check_diff() {
+    // Get old values
     let raw = Command::new("git")
-        .args(["show", "origin/main:data.txt"])
+        .args(["show", "origin/main:merkle/data.txt"])
         .output()
         .unwrap()
         .stdout;
 
-    let old_users: Vec<String> = String::from_utf8(raw)
+    let old_vals: Vec<String> = String::from_utf8(raw)
         .unwrap()
         .lines()
         .map(|s| str::trim(s).to_string())
         .collect();
 
-    // Load current data
+    // Get new values
     let raw = fs::read_to_string("data.txt").unwrap();
-    let new_users: Vec<String> = raw.lines().map(|s| str::trim(s).to_string()).collect();
+    let new_vals: Vec<String> = raw.lines().map(|s| str::trim(s).to_string()).collect();
 
-    assert!(
-        new_users.len() == old_users.len() + 1,
+    // Check new value was added
+    assert_eq!(
+        new_vals.len(),
+        old_vals.len() + 1,
         "Invalid number of users old: {:#?} new: {:#?}",
-        old_users,
-        new_users,
+        old_vals,
+        new_vals,
     );
+
+    // Check old values are the same
+    for i in 0..old_vals.len() {
+        assert_eq!(
+            old_vals[i], new_vals[i],
+            "old != new {} {} {}",
+            i, old_vals[i], new_vals[i]
+        )
+    }
+
+    // Check new value is not empty
+    let new_val = new_vals[new_vals.len() - 1].clone();
+    assert!(!new_val.trim().is_empty(), "new value is empty");
+
+    // Check unique
+    let set: HashSet<&String> = new_vals.iter().collect();
+    assert_eq!(set.len(), new_vals.len(), "duplicate users");
 }
 
 fn main() {
-    diff();
-    return;
-
     let args: Vec<String> = env::args().collect();
 
     let data_path = &args[1];
     let proof_path = &args[2];
+    let skip_diff = &args.get(3);
+
+    if let Some(s) = skip_diff {
+        if *s == "diff" {
+            check_diff();
+        }
+    }
 
     let src = File::open(data_path).unwrap();
     let reader = BufReader::new(src);

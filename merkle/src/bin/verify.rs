@@ -7,6 +7,10 @@ use std::process::Command;
 
 use merkle::{calc_root, hash_val, hex_to_bytes32, verify};
 
+fn no_whitespace(s: &str) -> bool {
+    !s.chars().any(|c| c.is_whitespace())
+}
+
 fn check_diff() {
     // Get old values
     let raw = Command::new("git")
@@ -44,8 +48,9 @@ fn check_diff() {
     }
 
     // Check new value is not empty
-    let new_val = new_vals[new_vals.len() - 1].clone();
-    assert!(!new_val.trim().is_empty(), "new value is empty");
+    let new_val = new_vals[new_vals.len() - 1].trim().to_string();
+    assert!(no_whitespace(&new_val), "no whitespace allowed");
+    assert!(!new_val.is_empty(), "new value is empty");
 
     // Check unique
     let set: HashSet<&String> = new_vals.iter().collect();

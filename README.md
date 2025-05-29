@@ -28,6 +28,9 @@ TODO: exercises
   - Type placeholder `_`
   - `println!`
 - Function
+  - no return value
+  - return value
+  - implicit return
 
 ### Data
 

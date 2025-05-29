@@ -1,8 +1,11 @@
 # Rust Crash Course
 
+TODO: examples
+TODO: exercises
+
 ### Intro
 
-- Install cargo
+- [Install cargo](./notes/install.md)
 - Hello world
 - Variable
 - Function
@@ -64,4 +67,3 @@
 - [rustlings](https://github.com/rust-lang/rustlings/)
 - [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
 - [Rust playground](https://play.rust-lang.org/)
-

@@ -41,6 +41,9 @@ TODO: exercises
   - Min and max value
   - Integer overflow
 - Tuple
+  - Destructure, `_`
+  - Empty tuple
+  - Nested
   - Return multiple outputs
 - Array
 - String and &str

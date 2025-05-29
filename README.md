@@ -15,7 +15,7 @@ TODO: exercises
 - [Install cargo](./notes/install.md)
 - Hello world
   - Attributes
-  - macros
+  - Macros
   - `main`
   - `println!`
   - `cargo run` `examples`, `bin` and `main`
@@ -28,14 +28,20 @@ TODO: exercises
   - Type placeholder `_`
   - `println!`
 - Function
-  - no return value
-  - return value
-  - implicit return
+  - Return value
+  - Implicit return
+  - No return value
 
 ### Data
 
 - Scalar types
+  - `i32`, `u32`, `f32`, `bool`, `char`
+  - `isize`, `usize`
+  - Type conversion
+  - Min and max value
+  - Integer overflow
 - Tuple
+  - Return multiple outputs
 - Array
 - String and &str
 - Enum

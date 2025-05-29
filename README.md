@@ -20,6 +20,13 @@ TODO: exercises
   - `println!`
   - `cargo run` `examples`, `bin` and `main`
 - Variable
+  - Immutable by default
+  - `let`
+  - `mut`
+  - Constant
+  - Shadowing
+  - Type placeholder `_`
+  - `println!`
 - Function
 
 ### Data
@@ -29,6 +36,7 @@ TODO: exercises
 - Array
 - String and &str
 - Enum
+  - `derive(Debug)`
 - `Result` and `Option`
 - Struct
 - Vector

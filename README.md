@@ -48,7 +48,9 @@ TODO: exercises
 - Array
   - Array - collection of elements with length known at compile time
   - Slice - collection of elements with length not known at compile time
-- String and &str
+- `String` and `&str`
+  - `+`
+  - `format!`
 - Enum
   - `derive(Debug)`
 - `Result` and `Option`

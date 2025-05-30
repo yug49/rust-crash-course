@@ -55,6 +55,7 @@ TODO: exercises
   - `derive(Debug, PartialEq)`
   - `Result` and `Option`
 - Struct
+  - update
 - Vector
 - Hash map
 

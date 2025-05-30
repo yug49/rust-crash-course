@@ -53,7 +53,7 @@ TODO: exercises
   - `format!`
 - Enum
   - `derive(Debug)`
-- `Result` and `Option`
+  - `Result` and `Option`
 - Struct
 - Vector
 - Hash map

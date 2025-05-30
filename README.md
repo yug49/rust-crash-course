@@ -52,7 +52,7 @@ TODO: exercises
   - `+`
   - `format!`
 - Enum
-  - `derive(Debug)`
+  - `derive(Debug, PartialEq)`
   - `Result` and `Option`
 - Struct
 - Vector

@@ -70,7 +70,9 @@ TODO: exercises
 
 - Stack and heap
 - Ownership
-- Borrow and references
+- Borrowing rules
+- Borrowing rules with functions
+- Dereference
 
 ### Error handling
 

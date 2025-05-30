@@ -62,9 +62,9 @@ TODO: exercises
 ### Control flow
 
 - If / else
-- If let and let else
 - Loop
 - Match
+- If let and let else
 
 ### Ownership
 

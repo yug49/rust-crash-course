@@ -110,6 +110,14 @@ TODO: exercises
 ### Concurrency
 
 - Async / await
+  - runtime
+  - Future
+  - lazy
+  - concurrent
+  - join!
+  - async block
+  - spawn
+- `select!`
 
 # Resources
 

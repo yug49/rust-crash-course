@@ -10,3 +10,4 @@ solutions = []
 
 [dependencies]
 cfg-if = "1.0.0"
+tokio = {version = "1.44", features=["full"]}

@@ -86,17 +86,26 @@ TODO: exercises
 ### Modules
 
 - Mod
+  - `mod`
+  - `pub`
+  - `use`
+  - `super`
+  - `crate`
 
-### Generic types
+### Generic types and Traits
 
+- Generic types
+- Methods
 - Basic
-
-### Trait
-
-- Basic
+- Generic trait
+- Trait bound
+  - `where`
+  - `+`
 - Lifetimes
-- `derive`, `Debug`, etc...
 - Iterators
+  - `map`
+  - `filter`
+  - `collect`
 
 ### Concurrency
 

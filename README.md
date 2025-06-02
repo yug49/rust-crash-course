@@ -77,7 +77,10 @@ TODO: exercises
 ### Error handling
 
 - Error handling
-- Expect, unwrap
+  - `panic`
+  - `Option`
+  - `Result`
+- `unwrap` and `expect`
 - `?`
 
 ### Modules

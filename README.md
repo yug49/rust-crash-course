@@ -1,11 +1,17 @@
 # Rust Crash Course
 
-TODO: examples
 TODO: exercises
+TODO: exercises branch
+TODO: READMEs
+
+```
+find . -type d -exec cargo build \;
+```
 
 ### Course intro
 
 - Setup
+  - VSCode plugins
   - Folder structure
     - examples
   - How to do exercises
@@ -13,7 +19,7 @@ TODO: exercises
 ### Intro
 
 - [Install cargo](./notes/install.md)
-- Hello world
+- [Hello world](./topics/hello)
   - Attributes
   - Macros
   - `main`

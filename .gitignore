@@ -4,4 +4,4 @@ tmp
 # Added by cargo
 
 Cargo.lock
-/target
+target

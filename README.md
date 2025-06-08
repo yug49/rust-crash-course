@@ -77,8 +77,6 @@ find . -type d -exec cargo build \;
 - Stack and heap
 - Ownership
 - Borrowing rules
-- Borrowing rules with functions
-- Dereference
 
 ### Error handling
 

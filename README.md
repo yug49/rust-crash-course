@@ -100,7 +100,7 @@ find . -type d -exec cargo build \;
 
 - Generic types
 - Methods
-- Basic
+- Trait
 - Generic trait
 - Trait bound
   - `where`

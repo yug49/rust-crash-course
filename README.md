@@ -54,7 +54,7 @@
 - [Generic trait](./topics/generic_trait)
 - [Trait bound](./topics/trait_bound)
 - [Lifetime](./topics/lifetime)
-- [Iterator](./topics/iterator)
+- [Iterator](./topics/iterator_adaptors)
 - [Iterator adaptors](./topics/iterator_adaptors)
 
 ### Concurrency

@@ -5,112 +5,63 @@
 - [Course intro](./notes/course_intro.md)
 - [Setup](./notes/course_setup.md)
 
-### Intro
+### Rust intro
 
 - [Install cargo](./notes/install.md)
 - [Hello world](./topics/hello)
-  - Attributes
-  - Macros
-  - `main`
-  - `println!`
-  - `cargo run` `examples`, `bin` and `main`
-- Variable
-  - Immutable by default
-  - `let`
-  - `mut`
-  - Constant
-  - Shadowing
-  - Type placeholder `_`
-  - `println!`
-- Function
-  - Return value
-  - Implicit return
-  - No return value
+- [Variable](./topics/variable)
+- [Function](./topics/function)
 
-### Data
+### Data types
 
-- Scalar types
-  - `i32`, `u32`, `f32`, `bool`, `char`
-  - `isize`, `usize`
-  - Type conversion
-  - Min and max value
-  - Integer overflow
-- Tuple
-  - Destructure, `_`
-  - Empty tuple
-  - Nested
-  - Return multiple outputs
-- Array
-  - Array - collection of elements with length known at compile time
-  - Slice - collection of elements with length not known at compile time
-- `String` and `&str`
-  - `+`
-  - `format!`
-- Enum
-  - `derive(Debug, PartialEq)`
-  - `Result` and `Option`
-- Struct
-  - update
-- Vector
-- Hash map
+- [Scalar types](./topics/scalar)
+- [Tuple](./topics/tuple)
+- [Array](./topics/array)
+- [`String` and `&str`](./topics/string)
+- [Enum](./topics/enum)
+- [Struct](./topics/struct)
+- [Vector](./topics/vector)
+- [Hash map](./topics/hash_map)
 
 ### Control flow
 
-- If / else
-- Loop
-- Match
-- If let and let else
+- [If / else](./topics/if_else)
+- [Loop](./topics/loop)
+- [Match](./topics/match)
+- [If let](./topics/if_let)
 
 ### Ownership
 
-- Stack and heap
-- Ownership
-- Borrowing rules
+- [Stack and heap](./topics/stack_heap)
+- [Ownership](./topics/ownership)
+- [Borrowing rules](./topics/borrow)
 
 ### Error handling
 
-- Error handling
-  - `panic`
-  - `Option`
-  - `Result`
-- `unwrap` and `expect`
-- `?`
+- [Error handling](./topics/error)
+- [`unwrap` and `expect`](./topics/unwrap)
+- [`?`](./topics/question)
 
 ### Modules
 
-- Mod
-  - `mod`
-  - `pub`
-  - `use`
-  - `super`
-  - `crate`
+- [Mod](./topics/mod)
 
 ### Generic types and Traits
 
-- Generic types
-- Methods
-- Trait
-- Generic trait
-- Trait bound
-  - `where`
-  - `+`
-- Lifetimes
-- Iterators
-  - `map`
-  - `filter`
-  - `collect`
+- [Generic types](./topics/generic_type)
+- [Methods](./topics/method)
+- [Trait](./topics/trait)
+- [Generic trait](./topics/generic_trait)
+- [Trait bound](./topics/trait_bound)
+- [Lifetime](./topics/lifetime)
+- [Iterator](./topics/iterator)
+- [Iterator adaptors](./topics/iterator_adaptors)
 
 ### Concurrency
 
-- Async / await
-  - runtime
-  - Future
-  - lazy
-  - concurrent
-  - join!
-  - async block
-  - spawn
-- `select!`
+- [Async / await](./topics/async)
+- [Thread vs async / await](./topics/thread_vs_async)
+- [`join!` and `select!` macros](./topics/join_select)
 
 # Resources
 

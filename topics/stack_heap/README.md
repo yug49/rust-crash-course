@@ -1,3 +1,3 @@
 ```shell
-cargo run --example stack_heap
+cargo run --example stack_and_heap
 ```

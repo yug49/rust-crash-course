@@ -1,20 +1,9 @@
 # Rust Crash Course
 
-TODO: exercises
-TODO: exercises branch
-TODO: READMEs
-
-```
-find . -type d -exec cargo build \;
-```
-
 ### Course intro
 
-- Setup
-  - VSCode plugins
-  - Folder structure
-    - examples
-  - How to do exercises
+- [Course intro](./notes/course_intro.md)
+- [Setup](./notes/course_setup.md)
 
 ### Intro
 

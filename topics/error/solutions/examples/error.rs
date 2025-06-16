@@ -12,7 +12,8 @@ fn main() {
 
     // This will also panic - index out of bound
     let v = [1, 2, 3];
-    v[99];
+    // This will panic
+    // v[99];
 
     // Option
     let x = v.get(99);

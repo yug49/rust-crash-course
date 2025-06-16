@@ -82,6 +82,21 @@ async fn main() {
     // Call .await to execute and wait for output
     let hamburger = make_hamburger().await;
 
+    // Spawning too many threads can crash this program (OS thread and memory limits)
+    /*
+    let mut handles = vec![];
+    for i in 0..1000000 {
+        handles.push(std::thread::spawn(move || {
+            std::thread::sleep(Duration::from_millis(100));
+            println!("{i}: 🍔 is ready");
+        }));
+    }
+
+    for h in handles {
+        h.join().unwrap();
+    }
+    */
+
     // Async / await
     // Spawning many async tasks will not crash this program
     let mut handles = vec![];

@@ -60,7 +60,7 @@
 ### Concurrency
 
 - [Async / await](./topics/async_await)
-- [Thread vs async / await](./topics/thread_vs_async)
+- [Thread vs async / await](./topics/async_await)
 - [`join!` and `select!` macros](./topics/join_select)
 
 # Resources

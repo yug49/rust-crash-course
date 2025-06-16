@@ -10,15 +10,15 @@ cargo run --example func
 
 ## Exercise 1
 
-Fix function `mul` inside [`src/lib.rs`](./src/lib.rs)
+Fix the function `mul` inside [`src/lib.rs`](./src/lib.rs)
 
-This function should take 2 inputs of the type `u32`, multiply them and then return the product.
+This the function should take 2 inputs of the type `u32`, multiply them and then return the product.
 
 ## Exercise 2
 
-Fix function `div` inside [`src/lib.rs`](./src/lib.rs)
+Fix the function `div` inside [`src/lib.rs`](./src/lib.rs)
 
-This function should take 2 inputs of the type `u32`, divide them and then return the quotient.
+This the function should take 2 inputs of the type `u32`, divide them and then return the quotient.
 
 ## Test
 

@@ -5,7 +5,7 @@
 Execute the following command to run [`./examples/tuple.rs`]
 
 ```shell
-cargo run --example tuple --release
+cargo run --example tuple
 ```
 
 ## Exercises

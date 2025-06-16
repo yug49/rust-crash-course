@@ -18,23 +18,23 @@
 - [Tuple](./topics/tuple)
 - [Array](./topics/array)
 - [`String` and `&str`](./topics/string)
-- [Enum](./topics/enum)
-- [Struct](./topics/struct)
+- [Enum](./topics/enum_type)
+- [Struct](./topics/struct_type)
 - [Vector](./topics/vector)
 - [Hash map](./topics/hash_map)
 
 ### Control flow
 
 - [If / else](./topics/if_else)
-- [Loop](./topics/loop)
-- [Match](./topics/match)
+- [Loop](./topics/for_loop)
+- [Match](./topics/pattern_match)
 - [If let](./topics/if_let)
 
 ### Ownership
 
 - [Stack and heap](./topics/stack_heap)
 - [Ownership](./topics/ownership)
-- [Borrowing rules](./topics/borrow)
+- [Borrowing rules](./topics/borrowing_rules)
 
 ### Error handling
 
@@ -44,13 +44,13 @@
 
 ### Modules
 
-- [Mod](./topics/mod)
+- [Mod](./topics/modules)
 
 ### Generic types and Traits
 
 - [Generic types](./topics/generic_type)
 - [Methods](./topics/method)
-- [Trait](./topics/trait)
+- [Trait](./topics/trait_basic)
 - [Generic trait](./topics/generic_trait)
 - [Trait bound](./topics/trait_bound)
 - [Lifetime](./topics/lifetime)
@@ -59,7 +59,7 @@
 
 ### Concurrency
 
-- [Async / await](./topics/async)
+- [Async / await](./topics/async_await)
 - [Thread vs async / await](./topics/thread_vs_async)
 - [`join!` and `select!` macros](./topics/join_select)
 

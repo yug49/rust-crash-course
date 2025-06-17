@@ -1,3 +1,10 @@
+use modules::{math, util};
+
 fn main() {
-    println!("Hello, world!");
+    util::log::debug(
+        &format!("min: {}", math::min(1, 2))
+    );
+    util::log::debug(
+        &format!("max: {}", math::max(1, 2))
+    );
 }

@@ -1,3 +1,23 @@
+
+#[derive(Debug)]
+struct Config<'a> {
+    url: &'a str,
+    port: u32,
+    db_url: &'a str,
+}
+
+fn log(config: &Config) {
+    println!("Connecting to database at {}...", config.db_url);
+    println!("server listening at {}:{}...", config.url, config.port);
+}
+
 fn main() {
-    println!("Hello, world!");
+    let config = Config {
+        url: "localhost",
+        port: 3000,
+        db_url: "db://localhost"
+    };
+
+    log(&config);
+
 }

@@ -8,19 +8,23 @@ Execute the following command to run [`./examples/scalar.rs`]
 cargo run --example scalar --release
 ```
 
-## Exercise 1
+## Exercises
+
+Exercises are in [`src/lib.rs`](./src/lib.rs)
+
+### Exercise 1
 
 Fix the function `eq` inside [`src/lib.rs`](./src/lib.rs)
 
 Compare 2 inputs of the type `char` for equality and return a `bool`
 
-## Exercise 2
+### Exercise 2
 
 Fix the function `add` inside [`src/lib.rs`](./src/lib.rs)
 
 Add 3 inputs of the type `f32` and return the sum
 
-## Exercise 3
+### Exercise 3
 
 Fix the function `cast` inside [`src/lib.rs`](./src/lib.rs)
 

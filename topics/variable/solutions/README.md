@@ -8,7 +8,11 @@ Execute the following command to run [`./examples/var.rs`]
 cargo run --example var
 ```
 
-## Exercise 1
+## Exercises
+
+Exercises are in [`src/main.rs`](./src/main.rs)
+
+### Exercise 1
 
 Make `count` into a mutable variable
 

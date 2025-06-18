@@ -10,7 +10,7 @@ cargo run --example tuple
 
 ## Exercises
 
-Exercises are in [`src/lib.r`](./src/lib.rs)
+Exercises are in [`src/lib.rs`](./src/lib.rs)
 
 ### Exercise 1
 

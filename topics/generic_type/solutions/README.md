@@ -10,7 +10,7 @@ cargo run --example generic
 
 ## Exercises
 
-Exercises are in [`src/lib.rs`](./src/main.rs)
+Exercises are in [`src/lib.rs`](./src/lib.rs)
 
 ### Exercise 1
 

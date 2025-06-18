@@ -11,7 +11,7 @@ pub fn num_to_string(num: u32) -> String {
 
 pub fn unwrap_or_default(x: Option<u32>, v: u32) -> u32 {
     match x {
-        Some(x) => x,
+        Some(val) => val,
         None => v,
     }
 }

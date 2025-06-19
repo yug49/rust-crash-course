@@ -70,3 +70,11 @@
 - [rustlings](https://github.com/rust-lang/rustlings/)
 - [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
 - [Rust playground](https://play.rust-lang.org/)
+
+# Notes
+
+Execute all tests in `solutions` folder
+
+```shell
+find topics -type d -name solutions -exec bash -c 'cd "$0" && cargo test' {} \;
+```

@@ -2,7 +2,7 @@
 
 ## Example
 
-Execute the following command to run [`./exercises/examples/error.rs`] ( ./exercises/examples/error.rs)
+Execute the following command to run [`./exercises/examples/error.rs`](./exercises/examples/error.rs)
 
 ```shell
 cargo run --example error

@@ -2,7 +2,7 @@
 
 ## Example
 
-Execute the following command to run [`./exercises/examples/if_else.rs`] ( ./exercises/examples/if_else.rs)
+Execute the following command to run [`./exercises/examples/if_else.rs`](./exercises/examples/if_else.rs)
 
 ```shell
 cargo run --example if_else

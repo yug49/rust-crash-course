@@ -2,7 +2,7 @@
 
 ## Example
 
-Execute the following command to run [`./exercises/examples/string.rs`] ( ./exercises/examples/string.rs)
+Execute the following command to run [`./exercises/examples/string.rs`](./exercises/examples/string.rs)
 
 ```shell
 cargo run --example string

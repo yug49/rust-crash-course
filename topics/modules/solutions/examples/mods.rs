@@ -1,12 +1,8 @@
 #![allow(unused)]
 
-use rust_crash_course::my::a::print as a_print;
-use rust_crash_course::{foo, my};
+use my_modules::{math, util};
 
 fn main() {
-    foo::print();
-    my::print();
-    my::a::print();
-    a_print();
-    let s = my::a::build("rust".to_string());
+    util::log::debug(&format!("min: {}", math::min(1, 2)));
+    util::log::debug(&format!("max: {}", math::max(1, 2)));
 }

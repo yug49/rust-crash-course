@@ -1,4 +1,4 @@
-use modules::{math, util};
+use my_modules::{math, util};
 
 fn main() {
     util::log::debug(&format!("min: {}", math::min(1, 2)));

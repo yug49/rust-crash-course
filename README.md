@@ -82,7 +82,7 @@ Please refer to this for an in-depth explanation of the content:
 
 - [Mod](./topics/modules/README.md)
 
-# Generic types and Traits
+# Generic types and traits
 
 - [Generic types](./topics/generic_type/README.md)
 - [Methods](./topics/method/README.md)

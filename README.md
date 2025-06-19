@@ -59,8 +59,8 @@
 
 ### Concurrency
 
-- [Async / await](./topics/async_await/README.md)
-- [Thread vs async / await](./topics/async_await/README.md)
+- [`async` / `await`](./topics/async_await/README.md)
+- [Thread vs `async` / `await`](./topics/async_await/README.md)
 - [`join!` and `select!` macros](./topics/join_select/README.md)
 
 # Resources

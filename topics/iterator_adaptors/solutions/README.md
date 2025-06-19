@@ -45,5 +45,5 @@ Convert a vector of `(String, u32)` into a `HashMap<String, u32>`.
 ## Test
 
 ```shell
-cargo run
+cargo test
 ```

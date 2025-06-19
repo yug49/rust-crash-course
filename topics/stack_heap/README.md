@@ -2,7 +2,7 @@
 
 ## Example
 
-Execute the following command to run [`./exercises/examples/stack_and_heap.rs`]
+Execute the following command to run [`./exercises/examples/stack_and_heap.rs`] ( ./exercises/examples/stack_and_heap.rs)
 
 ```shell
 cargo run --example stack_and_heap

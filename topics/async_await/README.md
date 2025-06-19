@@ -2,7 +2,7 @@
 
 ## Example
 
-Execute the following command to run [`./exercises/examples/async.rs`]
+Execute the following command to run [`./exercises/examples/async.rs`] ( ./exercises/examples/async.rs)
 
 ```shell
 cargo run --example async

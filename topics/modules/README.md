@@ -2,7 +2,7 @@
 
 ## Example
 
-Execute the following command to run [`./exercises/examples/mods.rs`]
+Execute the following command to run [`./exercises/examples/mods.rs`] ( ./exercises/examples/mods.rs)
 
 ```shell
 cargo run --example mods

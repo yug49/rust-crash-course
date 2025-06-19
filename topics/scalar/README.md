@@ -2,7 +2,7 @@
 
 ## Example
 
-Execute the following command to run [`./exercises/examples/scalar.rs`]
+Execute the following command to run [`./exercises/examples/scalar.rs`] ( ./exercises/examples/scalar.rs)
 
 ```shell
 cargo run --example scalar --release

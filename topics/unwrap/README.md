@@ -2,7 +2,7 @@
 
 ## Example
 
-Execute the following command to run [`./exercises/examples/unwrap.rs`]
+Execute the following command to run [`./exercises/examples/unwrap.rs`] ( ./exercises/examples/unwrap.rs)
 
 ```shell
 cargo run --example unwrap

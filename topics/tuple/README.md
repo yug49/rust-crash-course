@@ -2,7 +2,7 @@
 
 ## Example
 
-Execute the following command to run [`./exercises/examples/tuple.rs`]
+Execute the following command to run [`./exercises/examples/tuple.rs`] ( ./exercises/examples/tuple.rs)
 
 ```shell
 cargo run --example tuple

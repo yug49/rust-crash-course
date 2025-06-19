@@ -2,7 +2,7 @@
 
 ## Example
 
-Execute the following command to run [`./exercises/examples/match.rs`]
+Execute the following command to run [`./exercises/examples/match.rs`] ( ./exercises/examples/match.rs)
 
 ```shell
 cargo run --example match

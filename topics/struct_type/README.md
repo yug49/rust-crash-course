@@ -2,7 +2,7 @@
 
 ## Example
 
-Execute the following command to run [`./exercises/examples/struct.rs`]
+Execute the following command to run [`./exercises/examples/struct.rs`] ( ./exercises/examples/struct.rs)
 
 ```shell
 cargo run --example struct

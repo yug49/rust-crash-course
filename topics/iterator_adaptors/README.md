@@ -2,7 +2,7 @@
 
 ## Example
 
-Execute the following command to run [`./exercises/examples/iterator_adaptors.rs`]
+Execute the following command to run [`./exercises/examples/iterator_adaptors.rs`] ( ./exercises/examples/iterator_adaptors.rs)
 
 ```shell
 cargo run --example iterator_adaptors

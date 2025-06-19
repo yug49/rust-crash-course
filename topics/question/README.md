@@ -22,7 +22,7 @@ pub fn sum(nums: &[&str]) -> Result<u32, String> {
 
 Parse the slice of string slices into `u32` and return their sum.
 
-Call the `parse` function to parce a `&str` into `u32`.
+Call the `parse` function to parse a `&str` into `u32`.
 
 Use `?` to make your code shorter.
 

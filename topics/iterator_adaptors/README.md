@@ -2,10 +2,10 @@
 
 ## Example
 
-Execute the following command to run [`./solutions/examples/iterator_adaptors.rs`](./solutions/examples/iterator_adaptors.rs)
+Execute the following command to run [`./solutions/examples/iter_adaptors.rs`](./solutions/examples/iter_adaptors.rs)
 
 ```shell
-cargo run --example iterator_adaptors
+cargo run --example iter_adaptors
 ```
 
 ## Exercises

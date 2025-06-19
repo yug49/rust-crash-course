@@ -2,10 +2,10 @@
 
 ## Example
 
-Execute the following command to run [`./solutions/examples/if_let.rs`](./solutions/examples/if_let.rs)
+Execute the following command to run [`./solutions/examples/ownership.rs`](./solutions/examples/ownership.rs)
 
 ```shell
-cargo run --example if_let
+cargo run --example ownership
 ```
 
 ## Exercises

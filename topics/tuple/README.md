@@ -1,4 +1,4 @@
-# Scalar types
+# Tuple
 
 ## Example
 

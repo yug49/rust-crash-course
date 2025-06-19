@@ -36,19 +36,19 @@ Please refer to this for an in-depth explanation of the content:
 - [Discord](https://discord.gg/cyfrin) - Join a community of 3000+ developers and auditors
 - [Codehawks](https://codehawks.com) - Smart contracts auditing competitions to help secure web3
 
-### Course intro
+# Course intro
 
 - [Course intro](./notes/course_intro.md)
 - [Setup](./notes/course_setup.md)
 
-### Rust intro
+# Rust intro
 
 - [Install cargo](./notes/install.md)
 - [Hello world](./topics/hello/README.md)
 - [Variable](./topics/variable/README.md)
 - [Function](./topics/function/README.md)
 
-### Data types
+# Data types
 
 - [Scalar types](./topics/scalar/README.md)
 - [Tuple](./topics/tuple/README.md)
@@ -59,30 +59,30 @@ Please refer to this for an in-depth explanation of the content:
 - [Vector](./topics/vector/README.md)
 - [Hash map](./topics/hash_map/README.md)
 
-### Control flow
+# Control flow
 
 - [If / else](./topics/if_else/README.md)
 - [Loop](./topics/for_loop/README.md)
 - [Match](./topics/pattern_match/README.md)
 - [If let](./topics/if_let/README.md)
 
-### Ownership
+# Ownership
 
 - [Stack and heap](./topics/stack_heap/README.md)
 - [Ownership](./topics/ownership/README.md)
 - [Borrowing rules](./topics/borrowing_rules/README.md)
 
-### Error handling
+# Error handling
 
 - [Error handling](./topics/error/README.md)
 - [`unwrap` and `expect`](./topics/unwrap/README.md)
 - [`?`](./topics/question/README.md)
 
-### Modules
+# Modules
 
 - [Mod](./topics/modules/README.md)
 
-### Generic types and Traits
+# Generic types and Traits
 
 - [Generic types](./topics/generic_type/README.md)
 - [Methods](./topics/method/README.md)
@@ -93,7 +93,7 @@ Please refer to this for an in-depth explanation of the content:
 - [Iterator](./topics/iterator_adaptors/README.md)
 - [Iterator adaptors](./topics/iterator_adaptors/README.md)
 
-### Concurrency
+# Concurrency
 
 - [`async` / `await`](./topics/async_await/README.md)
 - [Thread vs `async` / `await`](./topics/async_await/README.md)

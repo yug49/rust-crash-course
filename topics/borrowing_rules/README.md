@@ -2,13 +2,13 @@
 
 ## Example
 
-Execute the following command to run [`./examples/borrow.rs`]
+Execute the following command to run [`./exercises/examples/borrow.rs`]
 
 ```shell
 cargo run --example borrow
 ```
 
-Execute the following command to run [`./examples/borrow_func.rs`]
+Execute the following command to run [`./exercises/examples/borrow_func.rs`]
 
 ```shell
 cargo run --example borrow_func
@@ -16,7 +16,7 @@ cargo run --example borrow_func
 
 ## Exercises
 
-Exercises are in [`src/lib.rs`](./src/lib.rs)
+Exercises are in [`./exercises/src/lib.rs`](./exercises/src/lib.rs)
 
 ### Exercise 1
 

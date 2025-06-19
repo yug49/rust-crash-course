@@ -2,7 +2,7 @@
 
 ## Example
 
-Execute the following command to run [`./examples/scalar.rs`]
+Execute the following command to run [`./exercises/examples/scalar.rs`]
 
 ```shell
 cargo run --example scalar --release
@@ -10,23 +10,23 @@ cargo run --example scalar --release
 
 ## Exercises
 
-Exercises are in [`src/lib.rs`](./src/lib.rs)
+Exercises are in [`./exercises/src/lib.rs`](./exercises/src/lib.rs)
 
 ### Exercise 1
 
-Fix the function `eq` inside [`src/lib.rs`](./src/lib.rs)
+Fix the function `eq` inside [`./exercises/src/lib.rs`](./exercises/src/lib.rs)
 
 Compare 2 inputs of the type `char` for equality and return a `bool`
 
 ### Exercise 2
 
-Fix the function `add` inside [`src/lib.rs`](./src/lib.rs)
+Fix the function `add` inside [`./exercises/src/lib.rs`](./exercises/src/lib.rs)
 
 Add 3 inputs of the type `f32` and return the sum
 
 ### Exercise 3
 
-Fix the function `cast` inside [`src/lib.rs`](./src/lib.rs)
+Fix the function `cast` inside [`./exercises/src/lib.rs`](./exercises/src/lib.rs)
 
 Add the 3 inputs, casting all of them into `f32`
 

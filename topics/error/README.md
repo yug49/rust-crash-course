@@ -2,7 +2,7 @@
 
 ## Example
 
-Execute the following command to run [`./examples/error.rs`]
+Execute the following command to run [`./exercises/examples/error.rs`]
 
 ```shell
 cargo run --example error
@@ -10,7 +10,7 @@ cargo run --example error
 
 ## Exercises
 
-Exercises are in [`src/lib.rs`](./src/lib.rs)
+Exercises are in [`./exercises/src/lib.rs`](./exercises/src/lib.rs)
 
 ### Exercise 1
 

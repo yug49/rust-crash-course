@@ -2,7 +2,7 @@
 
 ## Example
 
-Execute the following command to run [`./examples/lifetime.rs`]
+Execute the following command to run [`./exercises/examples/lifetime.rs`]
 
 ```shell
 cargo run --example lifetime
@@ -10,7 +10,7 @@ cargo run --example lifetime
 
 ## Exercises
 
-Exercises are in [`src/main.rs`](./src/main.rs)
+Exercises are in [`./exercises/src/main.rs`](./exercises/src/main.rs)
 
 ### Exercise 1
 

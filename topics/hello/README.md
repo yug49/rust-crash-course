@@ -2,7 +2,7 @@
 
 ## Exercises
 
-Exercises are in [`src/main.rs`](./src/main.rs)
+Exercises are in [`./exercises/src/main.rs`](./exercises/src/main.rs)
 
 ### Exercise 1
 

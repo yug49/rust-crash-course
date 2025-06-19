@@ -2,7 +2,7 @@
 
 ## Example
 
-Execute the following command to run [`./examples/mods.rs`]
+Execute the following command to run [`./exercises/examples/mods.rs`]
 
 ```shell
 cargo run --example mods
@@ -10,7 +10,7 @@ cargo run --example mods
 
 ## Exercises
 
-Exercises are in [`src/main.rs`](./src/main.rs)
+Exercises are in [`./exercises/src/main.rs`](./exercises/src/main.rs)
 
 ### Exercise 1
 

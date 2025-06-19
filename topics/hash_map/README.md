@@ -2,7 +2,7 @@
 
 ## Example
 
-Execute the following command to run [`./exercises/examples/hash_map.rs`](./exercises/examples/hash_map.rs)
+Execute the following command to run [`./solutions/examples/hash_map.rs`](./solutions/examples/hash_map.rs)
 
 ```shell
 cargo run --example hash_map

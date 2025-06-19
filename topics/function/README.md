@@ -2,7 +2,7 @@
 
 ## Example
 
-Execute the following command to run [`./exercises/examples/func.rs`](./exercises/examples/func.rs)
+Execute the following command to run [`./solutions/examples/func.rs`](./solutions/examples/func.rs)
 
 ```shell
 cargo run --example func

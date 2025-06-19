@@ -2,7 +2,7 @@
 
 ## Example
 
-Execute the following command to run [`./exercises/examples/question.rs`](./exercises/examples/question.rs)
+Execute the following command to run [`./solutions/examples/question.rs`](./solutions/examples/question.rs)
 
 ```shell
 cargo run --example question

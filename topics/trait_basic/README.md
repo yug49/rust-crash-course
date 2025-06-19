@@ -2,7 +2,7 @@
 
 ## Example
 
-Execute the following command to run [`./exercises/examples/trait.rs`](./exercises/examples/trait.rs)
+Execute the following command to run [`./solutions/examples/trait.rs`](./solutions/examples/trait.rs)
 
 ```shell
 cargo run --example trait

@@ -2,7 +2,7 @@
 
 ## Example
 
-Execute the following command to run [`./exercises/examples/generic.rs`](./exercises/examples/generic.rs)
+Execute the following command to run [`./solutions/examples/generic.rs`](./solutions/examples/generic.rs)
 
 ```shell
 cargo run --example generic

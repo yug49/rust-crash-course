@@ -2,7 +2,7 @@
 
 ## Example
 
-Execute the following command to run [`./exercises/examples/enum.rs`](./exercises/examples/enum.rs)
+Execute the following command to run [`./solutions/examples/enum.rs`](./solutions/examples/enum.rs)
 
 ```shell
 cargo run --example enum

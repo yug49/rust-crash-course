@@ -2,7 +2,7 @@
 
 ## Example
 
-Execute the following command to run [`./exercises/examples/vec.rs`](./exercises/examples/vec.rs)
+Execute the following command to run [`./solutions/examples/vec.rs`](./solutions/examples/vec.rs)
 
 ```shell
 cargo run --example vec

@@ -2,7 +2,7 @@
 
 ## Example
 
-Execute the following command to run [`./exercises/examples/array.rs`](./exercises/examples/array.rs)
+Execute the following command to run [`./solutions/examples/array.rs`](./solutions/examples/array.rs)
 
 ```shell
 cargo run --example array

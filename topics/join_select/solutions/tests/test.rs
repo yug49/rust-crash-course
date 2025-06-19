@@ -18,7 +18,11 @@ fn test_to_string() {
 
 #[test]
 fn test_to_hash_map() {
-    let v = vec![("a".to_string(), 1), ("b".to_string(), 2), ("c".to_string(), 3)];
+    let v = vec![
+        ("a".to_string(), 1),
+        ("b".to_string(), 2),
+        ("c".to_string(), 3),
+    ];
     let h: HashMap<String, u32> = to_hash_map(v);
     assert_eq!(h.len(), 3);
     assert_eq!(h.get("a"), Some(&1));

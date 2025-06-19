@@ -1,7 +1,7 @@
 pub fn exercise_1() {
     let s = "rust".to_string();
     let s1 = s;
-     let s2 = s;
+    let s2 = s;
     println!("{s1}");
 }
 

@@ -5,5 +5,8 @@ pub struct Account {
 }
 
 pub fn new(address: String) -> Account {
-    Account { address, balance: 0 }
+    Account {
+        address,
+        balance: 0,
+    }
 }

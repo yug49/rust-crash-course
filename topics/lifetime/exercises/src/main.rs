@@ -15,9 +15,8 @@ fn main() {
     let config = Config {
         url: "localhost",
         port: 3000,
-        db_url: "db://localhost"
+        db_url: "db://localhost",
     };
 
     log(&config);
-
 }

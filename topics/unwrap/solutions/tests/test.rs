@@ -23,4 +23,3 @@ fn test_unwrap_and_add() {
     let y = Some(2);
     assert_eq!(unwrap_and_add(x, y), 3);
 }
-

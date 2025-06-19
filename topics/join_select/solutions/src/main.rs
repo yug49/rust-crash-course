@@ -17,7 +17,6 @@ async fn get_btc_price_from_exchange_1() -> u32 {
     20000
 }
 
-
 #[tokio::main]
 async fn main() {
     // Exercise 1
